@@ -1,3 +1,26 @@
+/*TEMPORIZADORES
+    setTimeOut(funcion, tiempo en ms)
+    setInterval(funcion, tiempo en ms)*/
+
+/*DECLARACION DE LA VARIABLE QUE GUARDARA EL IDENTIFICADOR DEL TEMPORIZADOR
+let identificadorIntervaloDeTiempo;
+
+DECLARACION DEL INTERVAL --> ESTE REPETIRA LA FUNCION QUE LE PASAMOS POR PARAMTETRO PASADO EL TIEMPO INDICADO
+function repetirCadaSegundo() {
+  identificadorIntervaloDeTiempo = setInterval(mandarMensaje, 1);
+}
+A DIFERENCIA DEL setTimeOut(), EL CUAL SE ENCARGA DE EJECUTAR LA FUNCION PASADA POR PARAMETRO DESPUES DE X TIEMPO,
+NO SE REPITE DE MANERA AUTOMATICA
+
+FUNCION QUE SE EJECUTARA CON EL TEMPORIZADOR
+function mandarMensaje() {
+  console.log("Ha pasado 1 segundo.")
+  -- ESTO SE UTILIZA PARA DETENER EL TEMPORIZADOR
+  clearInterval(identificadorIntervaloDeTiempo);
+  clearTimeOut(nombreTemporizador)
+}*/
+
+
 let idTemporizador; // Variable para almacenar el temporizador
 let contador = 0; // Contador en centésimas de segundo 
 let corriendo = false; // Para evitar múltiples temporizadores activos
