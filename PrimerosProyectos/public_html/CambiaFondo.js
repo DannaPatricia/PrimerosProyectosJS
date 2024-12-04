@@ -49,7 +49,6 @@ function numRandom() {
     return Math.floor(Math.random() * 9);
 }
 
-/*https://www.digitalocean.com/community/tutorials/como-modificar-atributos-clases-y-estilos-en-el-dom-es*/
 function cambiaFondo(color) {
     if (color === "rojo") {
         texto.textContent = "ROJO";
